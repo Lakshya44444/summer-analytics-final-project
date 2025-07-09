@@ -25,14 +25,8 @@ This project implements an intelligent dynamic pricing engine that updates parki
 ---
 
 ## 🗺️ Architecture Diagram
+![image](https://github.com/user-attachments/assets/9f88b9f3-9317-4bbb-93f4-667e288291e7)
 
 > **Edit/extend using the Mermaid Live Editor**: https://mermaid.live/
 
-```mermaid
-graph TD
-    A[CSV Data Stream] --> B[Pathway Ingestion]
-    B --> C[Real-Time ETL]
-    C --> D[Pricing Engine]
-    D --> E[Baseline Pricing Model]
-    E --> F[Price Stream Output (CSV)]
-    F --> G[Bokeh/Panel Dashboard]
+
